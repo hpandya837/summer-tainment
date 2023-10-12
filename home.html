@@ -1,100 +1,173 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-   
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="https://use.typekit.net/hri5oem.css">
 
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/hri5oem.css" />
   </head>
   <body>
     <header class="head">
-        
-        <nav class="navbar navbar-expand-lg navbar-light title  ">
-          <div class="container-fluid title">
-            <h1 class="title">My Openhiemer Experince</h1>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse title" id="navbarNav">
-              <ul class="navbar-nav ">
-                <li class="nav-item">
-                  <a class="nav-link active title "  href="#caro">carousel</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#trailer">trailer</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#review">review</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#fun" >fun facts</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
-      <div class="container">
-        <div class="row " id="caro">
-          <div class="col-lg-12 col-md-12 col-sm-12">
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="imgs\open1.jpg" class="d-block w-100" alt="..."> <!--image from;https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.phoenix.org.uk%2Fwhats-on%2Fprogramme%2Foppenheimer-35mm%2F&psig=AOvVaw0F48w6zdq-euLSIBYXEyPq&ust=1697081943990000&source=images&cd=vfe&opi=89978449&ved=0CBIQjhxqFwoTCPCTo4WJ7YEDFQAAAAAdAAAAABAI -->
-          </div>
-          <div class="carousel-item">
-            <img  src="imgs\open2.jpg" class="d-block w-100  open3 " alt="..."><!-- image from: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.popularmechanics.com%2Fmilitary%2Fweapons%2Fa34992705%2Fwhat-would-happen-if-we-nuked-the-moon%2F&psig=AOvVaw061PXeOHIjq8fNyNVGSSAC&ust=1697082071363000&source=images&cd=vfe&opi=89978449&ved=0CBIQjhxqFwoTCMj_gcKJ7YEDFQAAAAAdAAAAABAK-->
-          </div>
-          <div class="carousel-item">
-            <img src="imgs\open3.jpg" class="d-block w-100" alt="..."><!--image from: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thedailybeast.com%2Fobsessed%2Foppenheimer-inside-the-horrifying-atomic-bomb-test-launch-scene&psig=AOvVaw061PXeOHIjq8fNyNVGSSAC&ust=1697082071363000&source=images&cd=vfe&opi=89978449&ved=0CBIQjhxqFwoTCMj_gcKJ7YEDFQAAAAAdAAAAABAT-->
+      <nav class="navbar navbar-expand-lg navbar-light title">
+        <div class="container-fluid title">
+          <h1 class="title">My Openhiemer Experince</h1>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse title" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active title" href="#caro">carousel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#trailer">trailer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#review">review</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#fun">fun facts</a>
+              </li>
+            </ul>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="row" id="caro">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imgs\open1.jpg" class="d-block w-100" alt="..." />
+                <!--image from;https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.phoenix.org.uk%2Fwhats-on%2Fprogramme%2Foppenheimer-35mm%2F&psig=AOvVaw0F48w6zdq-euLSIBYXEyPq&ust=1697081943990000&source=images&cd=vfe&opi=89978449&ved=0CBIQjhxqFwoTCPCTo4WJ7YEDFQAAAAAdAAAAABAI -->
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="imgs\open2.jpg"
+                  class="d-block w-100 open3"
+                  alt="..."
+                /><!-- image from: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.popularmechanics.com%2Fmilitary%2Fweapons%2Fa34992705%2Fwhat-would-happen-if-we-nuked-the-moon%2F&psig=AOvVaw061PXeOHIjq8fNyNVGSSAC&ust=1697082071363000&source=images&cd=vfe&opi=89978449&ved=0CBIQjhxqFwoTCMj_gcKJ7YEDFQAAAAAdAAAAABAK-->
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="imgs\open3.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                /><!--image from: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thedailybeast.com%2Fobsessed%2Foppenheimer-inside-the-horrifying-atomic-bomb-test-launch-scene&psig=AOvVaw061PXeOHIjq8fNyNVGSSAC&ust=1697082071363000&source=images&cd=vfe&opi=89978449&ved=0CBIQjhxqFwoTCMj_gcKJ7YEDFQAAAAAdAAAAABAT-->
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
       </div>
-    </div>  
-    </div>
-    <img src="/imgs/open1.jpg">
-
-    <img src="\imgs\open1.jpg">
-    <div class="row " id="trailer">
-      <div class="col-lg-12 col-md-12 col-sm-12 d-flex align-items-center justify-content-center">
-        <iframe width="560px" height="315" src="https://www.youtube.com/embed/uYPbbksJxIg?si=zqcqnDjwHK3QgYwK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   
+      <div class="row" id="trailer">
+        <div
+          class="col-lg-12 col-md-12 col-sm-12 d-flex align-items-center justify-content-center"
+        >
+          <iframe
+            width="560px"
+            height="315"
+            src="https://www.youtube.com/embed/uYPbbksJxIg?si=zqcqnDjwHK3QgYwK"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
       </div>
-    </div>
-    <div class="row" id="review">
-      <div class="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center justify-content-center text-light mt-5">
-       <div class="review">"Oppenheimer," directed by the talented filmmaker Christopher Nolan, is a cinematic masterpiece that leaves a lasting impact. The film masterfully weaves together history and human emotion, drawing us into the enigmatic world of J. Robert Oppenheimer, the brilliant scientist behind the development of the atomic bomb. With stunning visuals, outstanding performances, and a thought-provoking narrative, "Oppenheimer" not only educates but also deeply engages its audience.</div>
-      </div>
-      <div class="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center justify-content-center text-light mt-5">
-        <div class="fun-f" id="fun"> 
-           <h1>Some behind the scenes fun facts</h1> <!--fun facts found from the following links:https://www.ndtv.com/feature/oppenheimer-actor-cillian-murphy-says-he-read-bhagavad-gita-to-prepare-for-role-4214239#:~:text=Actor%20Cillian%20Murphy%20has%20said,father%20of%20the%20atomic%20bomb%22.
+      <div class="row" id="review">
+        <div
+          class="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center justify-content-center text-light mt-5"
+        >
+          <div class="review">
+            "Oppenheimer," directed by the talented filmmaker Christopher Nolan,
+            is a cinematic masterpiece that leaves a lasting impact. The film
+            masterfully weaves together history and human emotion, drawing us
+            into the enigmatic world of J. Robert Oppenheimer, the brilliant
+            scientist behind the development of the atomic bomb. With stunning
+            visuals, outstanding performances, and a thought-provoking
+            narrative, "Oppenheimer" not only educates but also deeply engages
+            its audience.
+          </div>
+        </div>
+        <div
+          class="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center justify-content-center text-light mt-5"
+        >
+          <div class="fun-f" id="fun">
+            <h1>Some behind the scenes fun facts</h1>
+            <!--fun facts found from the following links:https://www.ndtv.com/feature/oppenheimer-actor-cillian-murphy-says-he-read-bhagavad-gita-to-prepare-for-role-4214239#:~:text=Actor%20Cillian%20Murphy%20has%20said,father%20of%20the%20atomic%20bomb%22.
           https://www.huffingtonpost.co.uk/entry/oppenheimer-facts-behind-the-scenes-christopher-nolan-cillian-murphy_uk_64d3a184e4b0fa822c0cfd3b
           https://www.imdb.com/title/tt15398776/trivia/ -->
             <ul>
-              <li>The Trinity Test recreation was filmed without special effects</li>
-              <li>When in the bunker, Oppenheimer says that they'll know if the bomb is successful in 1 hour and 58 minutes. The bomb goes off in the movie at the 1 hour and 58 minute mark.
+              <li>
+                The Trinity Test recreation was filmed without special effects
               </li>
-              <li>Actor Cillian Murphy has said that he read the Bhagavad Gita while preparing for filmmaker Christopher Nolan's 'Oppenheimer'.</li>
+              <li>
+                When in the bunker, Oppenheimer says that they'll know if the
+                bomb is successful in 1 hour and 58 minutes. The bomb goes off
+                in the movie at the 1 hour and 58 minute mark.
+              </li>
+              <li>
+                Actor Cillian Murphy has said that he read the Bhagavad Gita
+                while preparing for filmmaker Christopher Nolan's 'Oppenheimer'.
+              </li>
             </ul>
+          </div>
         </div>
-       </div>
+      </div>
     </div>
-    </div>
-    <footer class="title  d-flex align-items-center justify-content-center">Thanks for visiting!
-      contact us at: ABC@gmail.com
+    <footer class="title d-flex align-items-center justify-content-center">
+      Thanks for visiting! contact us at: ABC@gmail.com
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
-
